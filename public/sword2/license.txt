@@ -1,0 +1,8 @@
+Model Information:
+* title:	Sword2
+* source:	https://sketchfab.com/3d-models/sword2-d42eeb6f5d6e48339c1fff0ac847763a
+* author:	KingSnekySnek (https://sketchfab.com/KingSnekySnek)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

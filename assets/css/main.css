@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ActiveOneRegular";
+  src: url("/static/fonts/ActiveOneRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ActiveRegular";
+  src: url("/static/fonts/ActiveRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ActiveTwoRegular";
+  src: url("/static/fonts/ActiveTwoRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DmSans";
+  src: url("/static/fonts/DMSans-VariableFont_opszwght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DmSansItalic";
+  src: url("/static/fonts/DMSans-Italic-VariableFont_opszwght.ttf")
+    format("truetype");
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "ActiveOneRegular", sans-serif;
+}
+
+.opacity-gradient-white {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.25)
+  );
+}
+
+.opacity-gradient-black {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.25)
+  );
+}
+
+:root {
+  --scrollbar-track-color: #c6c6c6;
+  --scrollbar-thumb-color: #848689;
+  --scrollbar-thumb-hover-color: #434344;
+}
+
+[data-theme="dark"] {
+  --scrollbar-track-color: #434344;
+  --scrollbar-thumb-color: #848689;
+  --scrollbar-thumb-hover-color: #c6c6c6;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-color);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-color);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover-color);
+}

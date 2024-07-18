@@ -1,0 +1,8 @@
+Model Information:
+* title:	Sword7
+* source:	https://sketchfab.com/3d-models/sword7-0e240f3225a74925b55a8c84099eb793
+* author:	KingSnekySnek (https://sketchfab.com/KingSnekySnek)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
