@@ -31,10 +31,10 @@
                   {{ $t("indexProjectDesc") }}
                 </p>
               </div>
-              <NuxtLink
+              <NuxtLinkLocale
                 to="/projects/tnt"
                 class="w-32 h-10 mr-20 hover:bg-l-red border-2 hover:border-l-red duration-200 border-indigo-700 rounded-md p-3 flex justify-center items-center"
-                >{{ $t("indexProjectLink") }}</NuxtLink
+                >{{ $t("indexProjectLink") }}</NuxtLinkLocale
               >
             </div>
             <img
