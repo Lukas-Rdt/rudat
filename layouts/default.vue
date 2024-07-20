@@ -29,6 +29,11 @@ export default {
           class="mx-5 dark:hover:text-l-blue hover:text-[#5F76AC] duration-200"
           >{{ $t("projectsLink") }}</NuxtLinkLocale
         >
+        <NuxtLinkLocale
+          to="/legal-information"
+          class="mx-5 dark:hover:text-l-blue hover:text-[#5F76AC] duration-200"
+          >{{ $t("legalTitle") }}</NuxtLinkLocale
+        >
       </div>
     </div>
     <div

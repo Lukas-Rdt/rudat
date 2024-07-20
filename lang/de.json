@@ -22,5 +22,11 @@
   "commentSuccess": "Kommentar erfolgreich gesendet!",
   "commentSavedTitle": "Gespeicherte Kommentare",
   "emailValidation": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
-  "messageValidation": "Die Nachricht muss mindestens 30 Zeichen lang sein."
+  "messageValidation": "Die Nachricht muss mindestens 30 Zeichen lang sein.",
+  "legalTitle": "Impressum",
+  "tmgNote": "Angaben gemäß § 5 TMG:",
+  "representedBy": "Vertreten durch:",
+  "address": "Adresse",
+  "country": "Deutschland",
+  "contact": "Kontakt"
 }

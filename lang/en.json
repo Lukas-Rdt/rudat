@@ -22,5 +22,11 @@
   "commentSuccess": "Comment successfully sent!",
   "commentSavedTitle": "Saved Comments",
   "emailValidation": "Please enter a valid email address.",
-  "messageValidation": "The message must be at least 30 characters long."
+  "messageValidation": "The message must be at least 30 characters long.",
+  "legalTitle": "Legal Information",
+  "tmgNote": "Information according to § 5 TMG:",
+  "representedBy": "Represented by:",
+  "address": "Address:",
+  "country": "Germany",
+  "contact": "Contact"
 }
