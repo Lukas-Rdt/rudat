@@ -1,5 +1,6 @@
 <template>
   <div class="flex flex-col p-10">
+    <Title>Legal Information</Title>
     <h1 class="text-5xl mb-10">{{ $t("legalTitle") }}</h1>
     <h2 class="text-3xl mb-2">{{ $t("tmgNote") }}</h2>
     <h3 class="text-2xl mt-6 mb-2">{{ $t("representedBy") }}</h3>

@@ -3,8 +3,9 @@
     <div class="w-full text-center text-3xl">{{ $t("contactTitle") }}</div>
     <form @submit.prevent="handleSubmit">
       <div class="mb-4">
-        <label class="block">{{ $t("contactMail") }}</label>
+        <label class="block" for="email">{{ $t("contactMail") }}</label>
         <input
+          id="email"
           type="email"
           v-model="form.email"
           :class="{ 'bg-red-500': errors.email }"
@@ -12,15 +13,17 @@
         <p v-if="errors.email" class="text-red-600">{{ errors.email }}</p>
       </div>
       <div class="mb-4">
-        <label class="block">{{ $t("contactSubject") }}</label>
+        <label class="block" for="subject">{{ $t("contactSubject") }}</label>
         <input
+          id="subject"
           type="text"
           v-model="form.subject"
           class="p-2 w-full h-10 rounded-lg focus:outline-none focus:bg-slate-200" />
       </div>
       <div class="mb-4">
-        <label class="block">{{ $t("contactMessage") }}</label>
+        <label class="block" for="text">{{ $t("contactMessage") }}</label>
         <textarea
+          id="text"
           v-model="form.message"
           :class="{ 'bg-red-500': errors.message }"
           class="p-2 w-full h-32 resize-none overflow-auto rounded-lg focus:outline-none focus:bg-slate-200"></textarea>

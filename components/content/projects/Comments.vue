@@ -3,15 +3,19 @@
     <div class="w-full text-center text-3xl">{{ $t("commentTitle") }}</div>
     <form @submit.prevent="handleSubmit">
       <div class="mb-4">
-        <label class="block">{{ $t("commentName") }}</label>
+        <label class="block" for="commentName">{{ $t("commentName") }}</label>
         <input
+          id="commentName"
           type="text"
           v-model="form.name"
           class="p-2 w-full h-10 rounded-lg focus:outline-none focus:bg-slate-200" />
       </div>
       <div class="mb-4">
-        <label class="block">{{ $t("commentMessage") }}</label>
+        <label class="block" for="commentText">{{
+          $t("commentMessage")
+        }}</label>
         <textarea
+          id="commentText"
           v-model="form.comment"
           :class="{ 'bg-red-500': errors.comment }"
           class="p-2 w-full h-32 resize-none overflow-auto rounded-lg focus:outline-none focus:bg-slate-200"></textarea>
